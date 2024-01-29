@@ -1,6 +1,6 @@
 def get_number():
-    x = input("Enter the first number: ")
-    y = input("Enter the second number: ")
+    x = int(input("Enter the first number: "))
+    y = int(input("Enter the second number: "))
     return x,y
 
 def number_sum(x,y):
